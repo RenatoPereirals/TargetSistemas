@@ -2,7 +2,7 @@
 {
     public enum StatusLancamento
     {
-        Confirmado,
+        Valido,
         Cancelado
     }
 }

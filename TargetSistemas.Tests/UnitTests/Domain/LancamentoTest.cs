@@ -12,7 +12,7 @@ namespace TargetSistemas.Tests.UnitTests.Domain
             var dataLancamento = DateTime.Now;
             var valor = 1;
             var avulso = true;
-            var status = StatusLancamento.Confirmado;
+            var status = StatusLancamento.Valido;
 
             //Act 
             var lancamento = new Lancamento(descricao, dataLancamento, valor, avulso, status);
